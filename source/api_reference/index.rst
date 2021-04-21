@@ -3,7 +3,10 @@ API Reference
 =============
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
 
-   stochastic-variable-sampling
+    mcs
+    mcs-gen
+    index-fire-models
+    heat-transfer-protected-steel
    

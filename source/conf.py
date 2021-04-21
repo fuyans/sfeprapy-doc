@@ -62,16 +62,14 @@ html_static_path = ['_static']
 
 # html_favicon = os.path.join('_static', 'logo.png')
 
-html_logo = os.path.join('_static', 'navi-logo.svg')
+# html_logo = os.path.join('_static', 'logo.svg')
 
 html_theme_options = {
     "logo_link": "index",
-    "github_url": "https://github.com/numpy/numpy",
-    "twitter_url": "https://twitter.com/numpy_team",
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/<your-org>/<your-repo>",
+            "url": "https://github.com/fsepy/sfeprapy",
             "icon": "fab fa-github-square",
         },
         # {
@@ -88,18 +86,18 @@ html_theme_options = {
     "favicons": [
         {
             "rel": "icon",
-            "sizes": "16x16",
-            "href": os.path.join('_static', 'logo.png'),
+            "sizes": "20x20",
+            "href": os.path.join('_static', 'LOGO_1_20x20.png'),
         },
         {
             "rel": "icon",
-            "sizes": "32x32",
-            "href": os.path.join('_static', 'logo.png'),
+            "sizes": "40x40",
+            "href": os.path.join('_static', 'LOGO_1_40x40.png'),
         },
         {
             "rel": "apple-touch-icon",
-            "sizes": "180x180",
-            "href": os.path.join('_static', 'logo.png'),
+            "sizes": "80x80",
+            "href": os.path.join('_static', 'LOGO_1_80x80.png'),
         },
     ],
     "collapse_navigation": True,
@@ -107,14 +105,14 @@ html_theme_options = {
     "show_prev_next": True,
     "use_edit_page_button": True,
     "navbar_end": ["navbar-icon-links.html", "search-field.html"],
-    "search_bar_text": "Search ...",
+    "search_bar_text": "Search documentation ...",
     "show_toc_level": 1,
 }
 
 html_context = {
     # "github_url": "https://github.com", # or your GitHub Enterprise interprise
     "github_user": "fuyans",
-    "github_repo": "fsetoolsGUI-doc",
+    "github_repo": "sfeprapy-doc",
     "github_version": "dev",
     "doc_path": "source/",
 }
@@ -123,7 +121,6 @@ html_context = {
 #     'index': 'indexcontent.html',
 # }
 
-html_title = 'TEST'
 # # html_static_path = ['_static']
 # # html_last_updated_fmt = '%b %d, %Y'
 

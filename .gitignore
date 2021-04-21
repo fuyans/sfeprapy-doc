@@ -129,6 +129,6 @@ venv.bak/
 dmypy.json
 
 # project files
-!source/_static/*
-!source/_templates/*
-!source/content/*
+!source/*
+
+docs/*

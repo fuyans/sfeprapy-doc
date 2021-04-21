@@ -18,8 +18,8 @@ Python on your system if it isn’t already; you can also install Python
 directly from `python.org`_. You might want to `upgrade pip`_ before
 using it to install other programs.
 
-Install via ``pip``
--------------------
+``pip`` install
+---------------
 
 1. to use ``pip`` install from PyPI:
 
@@ -36,7 +36,7 @@ Install via ``pip``
 
       pip install --upgrade "git+https://github.com/fsepy/SfePrapy.git@dev"
 
-Install local
+Local install
 -------------
 
 todo
