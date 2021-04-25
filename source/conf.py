@@ -62,7 +62,7 @@ html_static_path = ['_static']
 
 # html_favicon = os.path.join('_static', 'logo.png')
 
-# html_logo = os.path.join('_static', 'logo.svg')
+html_logo = os.path.join('_static', 'sfeprapy-logo.png')
 
 html_theme_options = {
     "logo_link": "index",
