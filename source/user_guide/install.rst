@@ -38,18 +38,20 @@ Local install
 
 `Clone`_ ``sfeprapy`` source code from GitHub, unzip and ``cd`` to the source code directory then install using ``pip``:
 
-   .. code:: sh
+.. code:: sh
 
-      pip install .
+   pip install .
 
 Test installation
 -----------------
 
-Upon successful installation of ``sfeprapy``, enter Python and check whether ``sfeprapy`` is installed properly::
+Upon successful installation of ``sfeprapy``, enter Python and check whether ``sfeprapy`` is installed properly:
 
-      >>> import sfeprapy
-      >>> print(sfeprapy.__version__)
-      >>> 0.8.1
+.. code-block:: python
+
+   import sfeprapy
+   print(sfeprapy.__version__)
+   0.8.1
 
 .. _Python: https://www.python.org/downloads/
 .. _Anaconda Distribution: https://www.anaconda.com/distribution/#download-section
