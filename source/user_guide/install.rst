@@ -27,50 +27,29 @@ using it to install other programs.
 
       pip install --upgrade sfeprapy
 
-2. or get the most developemnt version (requires `git`_):
-
-   =Note installing ``SfePrapy`` via this route will include the lastest
-   commits/changes to the library.=
+2. or get the most recent version under developemnt from ``GitHub`` (requires `git`_):
 
    .. code:: sh
 
-      pip install --upgrade "git+https://github.com/fsepy/SfePrapy.git@dev"
+      pip install --upgrade "git+https://github.com/fsepy/sfeprapy.git@dev"
 
 Local install
 -------------
 
-todo
+`Clone`_ ``sfeprapy`` source code from GitHub, unzip and ``cd`` to the source code directory then install using ``pip``:
+
+   .. code:: sh
+
+      pip install .
 
 Test installation
 -----------------
 
-``sfeprapy`` command line interface (CLI) uses the current working
-directory to obtain and/or save files.
+Upon successful installation of ``sfeprapy``, enter Python and check whether ``sfeprapy`` is installed properly::
 
-To get help
-~~~~~~~~~~~
-
-.. code:: sh
-
-   sfeprapy -h
-
-To produce a ``sfeprapy.mcs0`` example input file
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code:: sh
-
-   sfeprapy mcs0 template example_input.csv
-
-To run ``sfeprapy.mcs0`` simulation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code:: sh
-
-   sfeprapy mcs0 -p 4 example_input.csv
-
-``sfeprapy.mcs0`` uses the `multiprocessing`_ library to utilise full
-potential performance of multi-core CPUs. The ``-p 4`` defines 4 threads
-will be used in running the simulation, 1 is the default value.
+      >>> import sfeprapy
+      >>> print(sfeprapy.__version__)
+      >>> 0.8.1
 
 .. _Python: https://www.python.org/downloads/
 .. _Anaconda Distribution: https://www.anaconda.com/distribution/#download-section
@@ -80,3 +59,4 @@ will be used in running the simulation, 1 is the default value.
 .. _upgrade pip: https://pip.pypa.io/en/stable/installing/
 .. _git: https://git-scm.com/downloads
 .. _multiprocessing: https://docs.python.org/3.4/library/multiprocessing.html#module-multiprocessing
+.. _Clone: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
