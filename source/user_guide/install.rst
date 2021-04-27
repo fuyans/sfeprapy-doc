@@ -36,7 +36,7 @@ using it to install other programs.
 Local install
 -------------
 
-`Clone`_ ``sfeprapy`` source code from GitHub, unzip and ``cd`` to the source code directory then install using ``pip``:
+`Clone`_ or download (`master`_, `dev`_) ``sfeprapy`` source code from GitHub, unzip and ``cd`` to the source code directory then install using ``pip``:
 
 .. code:: sh
 
@@ -62,3 +62,5 @@ Upon successful installation of ``sfeprapy``, enter Python and check whether ``s
 .. _git: https://git-scm.com/downloads
 .. _multiprocessing: https://docs.python.org/3.4/library/multiprocessing.html#module-multiprocessing
 .. _Clone: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+.. _master: https://github.com/fsepy/SFEPRAPY/archive/refs/heads/master.zip
+.. _dev: https://github.com/fsepy/SFEPRAPY/archive/refs/heads/dev.zip
