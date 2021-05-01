@@ -11,7 +11,7 @@ project = 'SFEPRAPY'
 author = 'see Authors and contributors, OFR Consultants Ltd'
 copyright = f'2017-{datetime.datetime.now().strftime("%Y")}, {author}'
 version = '0.8.1'
-release = '1'
+# release = '1'
 language = 'en'
 
 # -- General configuration ---------------------------------------------------
@@ -26,6 +26,8 @@ extensions = [
     "numpydoc",
     "recommonmark",
     "jupyter_sphinx",
+    "nbsphinx",
+    "sphinx.ext.mathjax"
 ]
 
 autosummary_generate = True
@@ -60,8 +62,6 @@ html_static_path = ['_static']
 #     'custom.css',
 # ]
 
-# html_favicon = os.path.join('_static', 'logo.png')
-
 html_logo = os.path.join('_static', 'sfeprapy-logo.png')
 
 html_theme_options = {
@@ -72,16 +72,6 @@ html_theme_options = {
             "url": "https://github.com/fsepy/sfeprapy",
             "icon": "fab fa-github-square",
         },
-        # {
-        #     "name": "GitLab",
-        #     "url": "https://gitlab.com/<your-org>/<your-repo>",
-        #     "icon": "fab fa-gitlab",
-        # },
-        # {
-        #     "name": "Twitter",
-        #     "url": "https://twitter.com/<your-handle>",
-        #     "icon": "fab fa-twitter-square",
-        # },
     ],
     "favicons": [
         {
@@ -116,32 +106,3 @@ html_context = {
     "github_version": "dev",
     "doc_path": "source/",
 }
-
-# html_additional_pages = {
-#     'index': 'indexcontent.html',
-# }
-
-# # html_static_path = ['_static']
-# # html_last_updated_fmt = '%b %d, %Y'
-
-# html_use_modindex = True
-# html_copy_source = False
-# html_domain_indices = False
-# html_file_suffix = '.html'
-
-# if 'sphinx.ext.pngmath' in extensions:
-#     pngmath_use_preview = True
-#     pngmath_dvipng_args = ['-gamma', '1.5', '-D', '96', '-bg', 'Transparent']
-
-# plot_html_show_formats = False
-# plot_html_show_source_link = False
-
-# html_show_sphinx = False
-# html_copy_source = True
-# html_show_sourcelink = False
-
-# html_theme_options = {
-#     'logo_only': True,
-#     'display_version': True,
-#     'navigation_depth': 4,
-# }
