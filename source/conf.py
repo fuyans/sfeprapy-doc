@@ -8,7 +8,7 @@ needs_sphinx = '3.2.0'
 # -- Project information -----------------------------------------------------
 
 project = 'SFEPRAPY'
-author = 'see Authors and contributors, OFR Consultants Ltd'
+author = 'Yan Fu'
 copyright = f'2017-{datetime.datetime.now().strftime("%Y")}, {author}'
 version = '0.8.1'
 # release = '1'
@@ -50,17 +50,12 @@ html_sidebars = {
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-# html_theme = 'alabaster'
 html_theme = 'pydata_sphinx_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
-# html_css_files = [
-#     'custom.css',
-# ]
 
 html_logo = os.path.join('_static', 'sfeprapy-logo.png')
 
@@ -75,19 +70,14 @@ html_theme_options = {
     ],
     "favicons": [
         {
-            "rel": "icon",
-            "sizes": "20x20",
-            "href": os.path.join('_static', 'LOGO_1_20x20.png'),
+            "rel": os.path.join('_static', 'logo_1_16x16.ico'),
+            "sizes": "16x16",
+            "href": os.path.join('_static', 'logo_1_16x16.ico'),
         },
         {
-            "rel": "icon",
-            "sizes": "40x40",
-            "href": os.path.join('_static', 'LOGO_1_40x40.png'),
-        },
-        {
-            "rel": "apple-touch-icon",
-            "sizes": "80x80",
-            "href": os.path.join('_static', 'LOGO_1_80x80.png'),
+            "rel": os.path.join('_static', 'logo_1_32x32.ico'),
+            "sizes": "32x32",
+            "href": os.path.join('_static', 'logo_1_32x32.ico'),
         },
     ],
     "collapse_navigation": True,
