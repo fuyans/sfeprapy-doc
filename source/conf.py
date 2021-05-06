@@ -58,6 +58,7 @@ html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
 
 html_logo = os.path.join('_static', 'sfeprapy-logo.png')
+html_favicon = os.path.join('_static', 'logo_1_32x32.ico')
 
 html_theme_options = {
     "logo_link": "index",
@@ -70,14 +71,14 @@ html_theme_options = {
     ],
     "favicons": [
         {
-            "rel": os.path.join('_static', 'logo_1_16x16.ico'),
+            "rel": os.path.join('logo_1_16x16.ico'),
             "sizes": "16x16",
-            "href": os.path.join('_static', 'logo_1_16x16.ico'),
+            "href": os.path.join('logo_1_16x16.ico'),
         },
         {
-            "rel": os.path.join('_static', 'logo_1_32x32.ico'),
+            "rel": os.path.join('logo_1_32x32.ico'),
             "sizes": "32x32",
-            "href": os.path.join('_static', 'logo_1_32x32.ico'),
+            "href": os.path.join('logo_1_32x32.ico'),
         },
     ],
     "collapse_navigation": True,
