@@ -134,3 +134,4 @@ dmypy.json
 build/*
 source/user_guide/fig
 source/user_guide/media
+source/_build/
