@@ -131,4 +131,6 @@ dmypy.json
 # project files
 !source/*
 
-docs/*
+build/*
+source/user_guide/fig
+source/user_guide/media
