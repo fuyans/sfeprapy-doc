@@ -12,3 +12,7 @@ User Guide
     mcs1
     mcs2
     stochastic-inputs-and-distributions
+
+.. toctree::
+    :hidden:
+    time_equivalence_vis
