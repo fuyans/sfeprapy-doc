@@ -265,13 +265,13 @@ Solver Settings (for Time Equivalence)
 Timber Properties
 -----------------
 
-|``timber_exposed_area``: float
+``timber_exposed_area``: float 
 
 	| [m²]
 	| Exposed timber surface within the compartment. Set
 	  ``timber_exposed_area`` to ‘0’ to omitt timber involvement.
 
-|``timber_charring_rate``: float
+``timber_charring_rate``: float
 
 	| [mm/min]
 	| Timber constant charring rate. This is currently independent of

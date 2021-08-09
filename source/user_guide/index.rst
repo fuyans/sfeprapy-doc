@@ -15,4 +15,5 @@ User Guide
 
 .. toctree::
     :hidden:
+    
     time_equivalence_vis
