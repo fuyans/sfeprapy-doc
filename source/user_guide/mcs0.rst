@@ -22,16 +22,16 @@ Non-Optional Miscellaneous Parameters
 
 	| A name for the case/compartment. Should be unique
 	| among all cases. This may be used in post-processing when combining time
-	| equivalence results.
+	  equivalence results.
 
 ``fire_mode``: int
 
 	| Should be an integer from 0 to 4, inclusive. To define what design fires to use:
-		| 0 - EC parametric fire only;
-		| 1 - Travelling fire only;
-		| 2 - EC parametric fire, German Annex;
-		| 3 - Option 0 and 1 as above; or
-		| 4 - Option 2 and 1 as above.
+	| 0 - EC parametric fire only;
+	| 1 - Travelling fire only;
+	| 2 - EC parametric fire, German Annex;
+	| 3 - Option 0 and 1 as above; or
+	| 4 - Option 2 and 1 as above.
 
 ``n_simulations``: int
 
@@ -63,7 +63,8 @@ Compartment Parameters
 	| [m]
 	| Depth of room (the greater dimension).
 
-``room_height``: float 
+``room_height``: float
+
 	| [m]
 	| Height of room (floor slab to ceiling slab).
 
@@ -77,7 +78,7 @@ Compartment Parameters
 	| [m]
 	| Total width of all opening areas for a compartment.
 
-``window_height``: float 
+``window_height``: float
 
 	| [m]
 	| Weighted height of all opening areas.
