@@ -1,4 +1,3 @@
-==========
 User Guide
 ==========
 
@@ -8,12 +7,6 @@ User Guide
     install
     application
     limitation
-    mcs0
-    mcs1
-    mcs2
-    stochastic-inputs-and-distributions
-
-.. toctree::
-    :hidden:
-    
-    time_equivalence_vis
+    mcs0/index
+    mcs2/index
+    useful_notebooks/index

@@ -67,7 +67,6 @@ Upon successful installation of ``sfeprapy``, enter Python and check whether ``s
 .. _python.org: https://www.python.org/getit/
 .. _upgrade pip: https://pip.pypa.io/en/stable/installing/
 .. _git: https://git-scm.com/downloads
-.. _multiprocessing: https://docs.python.org/3.4/library/multiprocessing.html#module-multiprocessing
 .. _Clone: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 .. _master: https://github.com/fsepy/SFEPRAPY/archive/refs/heads/master.zip
 .. _dev: https://github.com/fsepy/SFEPRAPY/archive/refs/heads/dev.zip
