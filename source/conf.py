@@ -97,3 +97,5 @@ html_context = {
     "github_version": "dev",
     "doc_path": "source/",
 }
+
+nbsphinx_allow_errors = True
