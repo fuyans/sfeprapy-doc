@@ -6,27 +6,13 @@ Dependencies
 ------------
 
 `Python`_ 3.7 or later is required. `Anaconda Distribution`_ is
-recommended for new starters, it includes Python and few useful packages
-including a package manager ``pip`` and built-in virtual environment 
-manager.
-
-`pip`_ is a package management system for installing and updating Python
-packages. pip comes with Python, so you get pip simply by installing
-Python. On Ubuntu and Fedora Linux, you can simply use your system
-package manager to install the ``python3-pip`` package. `The
-Hitchhiker’s Guide to Python`_ provides some guidance on how to install
-Python on your system if it isn’t already; you can also install Python
-directly from `python.org`_. You might want to `upgrade pip`_ before
-using it to install other programs.
-
-Third party libraries ``numpy``, ``scipy``, ``pandas`` etc. are used in 
-``sfeprapy`` and they should be automatically installed behind the scene
-if ``pip`` is used for installation. These packages will need to be
-installed manually if running directly from source, see requirments.txt
-for dependencies.
+recommended for new starters. It automatically setup some useful tools 
+(e.g. `pip`_, virtual environment manager etc).
 
 ``pip`` install
 ---------------
+
+*click* `pip`_ *to learn more*.
 
 1. to use ``pip`` install from PyPI:
 
